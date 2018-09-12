@@ -12,6 +12,7 @@
   * [Filters](filters.md)
   * [Item Removal](itemremove.md)
   * [Portals](portals.md)
+  * [World Border](worldborder.md)
 
 * Objectives
 
