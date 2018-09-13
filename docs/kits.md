@@ -4,7 +4,7 @@ This module is used to define the default kit each player recieves in their inve
 
 ## Example
 
-Gives all players an iron sword and wool as well as leather armor.
+Gives all players an iron sword and wood as well as armor.
 
 ```json
     "kits": [
@@ -15,9 +15,9 @@ Gives all players an iron sword and wool as well as leather armor.
 				{"type": "item", "material": "wood", "slot": 1, "amount": 64},
 
 				{"material": "leather helmet", "slot": "helmet", "unbreakable": true},
-				{"material": "leather chestplate", "slot": "chestplate", "unbreakable": true},
+				{"material": "iron chestplate", "slot": "chestplate", "unbreakable": true},
 				{"material": "leather leggings", "slot": "leggings", "unbreakable": true},
-				{"material": "leather boots", "slot": "boots", "unbreakable": true}
+				{"material": "chainmail boots", "slot": "boots", "unbreakable": true}
 			]
 		}
 	]
