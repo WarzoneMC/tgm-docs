@@ -24,9 +24,9 @@ Prevent explosions from destroying the `blue-spawn` region.
 |-----------|-----------------------------------------------------------------------|--------|
 | `type`    | The **type** of filter used to apply a condition.                     | String |
 | `evaluate`| How the condition applies to the team (`DENY`, `ALLOW`, `ABSTAIN`)    | String |
-| `teams`   | The teams that the filter applies to.                                 | String |
+| `teams`   | The teams that the filter applies to.                                 | Team   |
 | `message` | The message that should be sent to players when the filter activates. | String |
-| `regions` | The regions that the filter is meant to modify.                       | String |
+| `regions` | The regions that the filter is meant to modify.                       | Region |
 
 The types of filters allowed to be used are filters that are coded into TGM: Therefore, you cannot modify events that are not already supported. The types of filters are listed below, used in conjunction with `type`.
 
