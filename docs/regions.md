@@ -8,7 +8,7 @@ This module is used to specify the bounds in which a filter is used. TGM current
 	"regions": [
 		{ "id": "l-spawn", "type": "cuboid", "min": "-94, 16, -4", "max": "-103, 23, 4" },
 		{ "id": "r-spawn", "type": "cuboid", "min": "56, 16, 4", "max": "64, 23, -4" },
-                { "id": "s-spawn", "type": "cylinder", "base": "-79, 7, -2", "radius": "3", "height": "6" }
+		{ "id": "s-spawn", "type": "cylinder", "base": "-79, 7, -2", "radius": "3", "height": "6" }
 	],
 ```
 
