@@ -38,5 +38,6 @@ The types of filters allowed to be used are filters that are coded into TGM: The
 | `enter`        | Determines whether or not players can enter a specified region.       | String |
 | `leave`        | Determines whether or not players can leave/exit a specified region.  | String |
 | `block-explode`| Determines whether or not explosions destroy a specified region.      | String |
+| `use-bow`      | Determines whether or not players should be allowed to fire arrows.   | String |
 
 **NOTE:** More filters are planned to be added in the future.
