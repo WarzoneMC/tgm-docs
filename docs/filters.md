@@ -39,5 +39,6 @@ The types of filters allowed to be used are filters that are coded into TGM: The
 | `leave`        | Determines whether or not players can leave/exit a specified region.  | String |
 | `block-explode`| Determines whether or not explosions destroy a specified region.      | String |
 | `use-bow`      | Determines whether or not players should be allowed to fire arrows.   | String |
+| `use-shear`    | Determines whether or not players should be allowed to shear sheep.   | String |
 
 **NOTE:** More filters are planned to be added in the future.
