@@ -1,7 +1,7 @@
 ## Warzone
 > ### Welcome to the TGM Maps Documentation Site!
 
-This website is for documenting implementations of [WarzoneMC's Fork](https://github.com/WarzoneMC/Warzone) that is used live on [warzone.network](warzone.network).
+This website is for documenting implementations of [WarzoneMC's Fork](https://github.com/WarzoneMC/Warzone) that is used live on [warzone.network](https://warzone.network).
 
 ### What is TGM?
 
@@ -19,14 +19,14 @@ JSON files can be written in any text editing program, however the most efficien
 
 JSON files must be fully functional in order to be loaded onto a TGM server without errors. To test your JSON, you may create a local server running TGM. If you wish to test whether or not your JSON will parse, you may use [jsonformatter.org](https://jsonformatter.org/json-parser).
 
-1. Start with the latest stable [Paper (PaperSpigot)](https://destroystokyo.com/ci/job/Paper/) build. 
+1. Start with the latest stable [Paper (PaperSpigot)](https://papermc.io/ci/job/Paper/) build. 
  
-2. Create a `maps` folder inside of the server and insert the TGM map with your `map.json`, `region`, and `level.dat` files.
+2. Create a `Maps` folder inside of the server and insert the TGM map with your `map.json`, `region`, and `level.dat` files.
 
 3. Start the server.
 
 ---
 
-Feel free to contribute to the development of this website by [making pull requests on GitHub!](https://github.com/BennyDoesTheStuff/Docs/) This website is community maintained.
+Feel free to contribute to the development of this website by [making pull requests on GitHub!](https://github.com/WarzoneMC/Docs/) This website is community maintained.
 
 
