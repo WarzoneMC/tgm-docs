@@ -19,4 +19,4 @@ This module is used to specify where players will appear when they first join th
 | `teams`   | The name of the teams that spawn at the coords. Must use the Team ID. | Team     |
 | `coords`  | The coordinates at which the team spawns.                             | Location |
 
-**NOTE:** `coords` requires the X, Y, Z, and YAW (in that order). Coordinates can be seen by pressing F3.
+<span class="label label-note">Note</span> `coords` requires the X, Y, Z, and YAW (in that order). Coordinates can be seen by pressing F3.

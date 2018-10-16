@@ -28,4 +28,4 @@ When a player reaches 10 kills, clear all of the villagers in the map.
 | `repeat`  | Whether or not the command should activate each time.                 | Boolean|
 | `commands`| The command that should be executed.                                  | Command|
 
-**NOTE:** Malicious commands are punishable.
+<span class="label label-note">Note</span> Malicious commands are punishable.

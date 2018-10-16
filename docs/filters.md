@@ -41,4 +41,4 @@ The types of filters allowed to be used are filters that are coded into TGM: The
 | `use-bow`      | Determines whether or not players should be allowed to fire arrows.   | String |
 | `use-shear`    | Determines whether or not players should be allowed to shear sheep.   | String |
 
-**NOTE:** More filters are planned to be added in the future.
+<span class="label label-note">Note</span> More filters are planned to be added in the future.

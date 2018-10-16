@@ -36,4 +36,4 @@ This module is used to specify the bounds in which a filter is used. TGM current
 | `radius`  | How many blocks outward the cylinder region extends.                  | Number   |
 | `height`  | How many blocks high the cylinder region extends.                     | Number   |
 
-**NOTE:** More region types, such as sphere and void, will be supported in the future.
+<span class="label label-note">Note</span> More region types, such as sphere and void, will be supported in the future.

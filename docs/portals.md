@@ -19,4 +19,4 @@ This module is used to teleport players to different parts of the map.
 | `teams`   | The teams that are allowed to enter through this portal.            | String     |
 | `sound`   | Whether or not the default "zip" sound should be played upon entry. | Boolean    |
 
-**NOTE:** A region is required to define `from`. Portals are also automatically enabled for spectators.
+<span class="label label-note">Note</span> A region is required to define `from`. Portals are also automatically enabled for spectators.

@@ -54,4 +54,4 @@ Defines which kit each team receives.
 | `durability`  | The certain ID of the block the player receives.              | Number  |
 | `unbreakable` | Whether the item is breakable or not.                         | Boolean |
 
-**NOTE:** You can additionally assign more than 1 kit to a team as long as the slots don't overlap.
+<span class="label label-note">Note</span> You can additionally assign more than 1 kit to a team as long as the slots don't overlap.
