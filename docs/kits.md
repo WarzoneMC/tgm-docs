@@ -30,14 +30,14 @@ Defines which kit each team receives.
             "name": "red_kit",
             "teams": ["red"],
             "items": [
-                {"material": "red stained glass", "slot": 4, "amount": 64, "durability": 14}
+                {"material": "red stained glass", "slot": 4, "amount": 64}
             ]
         },
         {
             "name": "blue_kit",
             "teams": ["blue"],
             "items": [
-                {"material": "blue stained glass", "slot": 4, "amount": 64, "durability": 11}
+                {"material": "blue stained glass", "slot": 4, "amount": 64}
             ]
         }
     ]
