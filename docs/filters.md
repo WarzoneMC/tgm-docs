@@ -14,7 +14,7 @@ Prevent explosions from destroying the `blue-spawn` region.
 		}
         ],
 	"regions": [
-		{ "id": "blue-spawn", "type": "cuboid", "min": "121, 16, -33", "max": "123, 12, -35" }
+		{"id": "blue-spawn", "type": "cuboid", "min": "121, 16, -33", "max": "123, 12, -35"}
 	]
 ```
 
