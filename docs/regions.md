@@ -1,6 +1,6 @@
 # Regions
 
-This module is used to specify the bounds in which a filter is used. TGM currently supports `CUBOID` (min, max) & `CYLINDER` (base, radius, height) regions.
+This module is used to specify the bounds in which a filter is used.
 
 ## Example
 
