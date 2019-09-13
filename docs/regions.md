@@ -9,6 +9,7 @@ This module is used to specify the bounds in which a filter is used.
 		{ "id": "cub-region", "type": "cuboid", "min": "-94, 16, -4", "max": "-103, 23, 4" },
 		{ "id": "cyl-region", "type": "cylinder", "base": "-79, 7, -2", "radius": 3, "height": 6 },
 		{ "id": "sph-region", "type": "sphere", "center": "-35, 83, 22", "radius": 5 },
+		{ "id": "hsp-region", "type": "hemisphere", "center": "-26, 48, 24", "radius": 8, "direction": "-x"},
 	],
 ```
 
@@ -17,7 +18,7 @@ This module is used to specify the bounds in which a filter is used.
 | Attribute | Description                                                                 | Value    |
 |-----------|-----------------------------------------------------------------------------|----------|
 | `id`      | The unique ID that you are naming the region. Used later for filters.       | ID       |
-| `type`    | The type of geometry that the region uses (`cuboid`, `cylinder`, `sphere`)  | String   |
+| `type`    | The type of geometry that the region uses (`cuboid`, `cylinder`, `sphere`, `hemisphere`)  | String   |
 
 ---
 
@@ -42,5 +43,13 @@ This module is used to specify the bounds in which a filter is used.
 |-----------|-----------------------------------------------------------------------|----------|
 | `center`  | The center block of the sphere, as an `XYZ` value.                    | Coords   |
 | `radius`  | How many blocks outward the sphere region extends.                    | Number   |
+
+#### Hemisphere Attributes
+
+| Attribute | Description                                                           | Value    |
+|-----------|-----------------------------------------------------------------------|----------|
+| `center`  | The center block of the hemisphere, as an `XYZ` value.                | Coords   |
+| `radius`  | How many blocks outward the hemisphere region extends.                | Number   |
+| `direction`| Which direction the hemisphere is facing (`+/- x,y,z`)               | Direction|
 
 <span class="label label-note">Note</span> More region types will be supported in the future.
