@@ -43,7 +43,16 @@ Defines which kit each team receives.
     ]
 ```
 
-### Team Attributes
+### Kit Attributes
+
+| Attribute     | Description                                                   | Value   |
+|---------------|---------------------------------------------------------------|---------|
+| `name`        | The name of the kit.                                          | String  |
+| `teams`       | The teams that receive the kit (separated by a comma)         | String  |
+| `items`       | Contains child attributes such as the material and amount.    | Parent  |
+| `effects`     | Contains child attributes such as effect and duration.        | Parent  |
+
+### Items Attributes
 
 | Attribute     | Description                                                   | Value   |
 |---------------|---------------------------------------------------------------|---------|
@@ -52,5 +61,15 @@ Defines which kit each team receives.
 | `slot`        | The slot the item will spawn in.                              | Slot    |
 | `amount`      | The amount of an item the player receives. Default is 1.      | Number  |
 | `unbreakable` | Whether the item is breakable or not.                         | Boolean |
+
+### Effects Attributes
+
+| Attribute     | Description                                                   | Value   |
+|---------------|---------------------------------------------------------------|---------|
+| `effect`      | The type of effect the player will be receiving               | String  |
+| `duration`    | The duration of time that the player will recieve this effect | Number  |
+| `amplifier`   | The "level" (or strength) of the effect                       | Number  |
+| `particles`   | Whether or not particles will display during the effect       | Boolean |
+| `ambient`     | Makes potion effect produce more, translucent, particles      | Boolean |
 
 <span class="label label-note">Note</span> You can additionally assign more than 1 kit to a team as long as the slots don't overlap.
