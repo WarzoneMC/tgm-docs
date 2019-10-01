@@ -6,14 +6,18 @@
 
   * [Teams](teams.md)
   * [Spawns](spawns.md)
-  * [Killstreaks](killstreaks.md)
-  * [Kits & Inventory](kits.md)
   * [Regions](regions.md)
   * [Filters](filters.md)
-  * [Item Removal](itemremove.md)
   * [Portals](portals.md)
   * [World Border](worldborder.md)
+  * [Item Removal](itemremove.md)
+  
+* Gear
 
+  * [Kits & Inventory](kits.md)
+  * [Killstreaks](killstreaks.md)
+  * [Damage Control](damagecontrol.md)
+  
 * Objectives
 
   * [Monuments](monuments.md)
