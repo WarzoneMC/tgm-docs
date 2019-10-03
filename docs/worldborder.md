@@ -5,8 +5,15 @@ This module is used to manage the vanilla Minecraft world border within the boun
 ## Example
 
 ```json
-No example is available for this module. Check back soon!
+	"border": {
+    "startingSize": 1000,
+    "endSize": 100,
+    "center": "0, 60, 0",
+    "delay": 20
+  },
 ```
+
+This example would see the worldborder start to go from 1000 blocks wide to 100 after 20 seconds in the game has elapsed.
 
 ### World Border Attributes
 
