@@ -14,4 +14,10 @@ Disable inventory drops and obsidian.
 	],
 ```
 
+To disable all inventory drops:
+
+```json
+       "itemremove": "*",
+```
+
 To resolve material names, please use the [Spigot Javadocs](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html). Do not use IDs for items (as they are deprecated), and do not use legacy material names (such as `LEGACY_DEAD_BUSH`). It is recommended to keep material names in lowercase and use spaces instead of underscores for readability.
