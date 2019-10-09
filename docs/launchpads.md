@@ -1,6 +1,6 @@
-# Launchpads
+# Launch Pads
 
-This module is used to specify where players will appear when they first join the match. This is typically at the team's base, in a protected region.
+This module is used to create launch pads for the players with customizable options.
 
 ## Example
 
@@ -23,12 +23,12 @@ This module is used to specify where players will appear when they first join th
 	],
 ```
 
-### Spawn Attributes
+### Launch Pad Attributes
 
 Field name | Description | Type | Required
 --- | --- | --- | ---
 `region` | Area where the player needs to stand to be launched. | Region ID or [Region Object](https://docs.warz.one/#/regions) | **Yes**
+`motion` | Direction in which the player will be launched. If the `directional` field is set to **true**, this will act as a multiplier for the player's direction. | Vector (x, y ,z) | Yes
 `delay` | How long in ticks the player needs to stand to be launched. | Integer | No (Default: 0)
 `directional` | Whether the launchpad should launch the player in the direction they are looking at. | Boolean | No (Default: true)
-`motion` | Direction in which the player will be launched. If the `directional` field is set to **true**, this will act as a multiplier for the player's direction. | Vector (x, y ,z) | No (Default: 1, 1, 1)
 `teams` | List of teams that can use the launch pad. | List of teams | No (Default: all teams)
