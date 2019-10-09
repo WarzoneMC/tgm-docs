@@ -8,6 +8,7 @@
   * [Spawns](spawns.md)
   * [Regions](regions.md)
   * [Filters](filters.md)
+  * [Launchpads](launchpads.md)
   * [Portals](portals.md)
   * [World Border](worldborder.md)
   * [Item Removal](itemremove.md)
