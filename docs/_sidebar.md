@@ -1,23 +1,28 @@
 * General
-
   * [Main Map Elements](elements.md)
+
+* Core
+  * [Teams](teams.md)
+  * [Spawns](spawns.md)
 
 * Mechanics
 
-  * [Teams](teams.md)
-  * [Spawns](spawns.md)
   * [Regions](regions.md)
   * [Filters](filters.md)
   * [Launchpads](launchpads.md)
   * [Portals](portals.md)
   * [World Border](worldborder.md)
   * [Item Removal](itemremove.md)
+  * [Gamerules](gamerules.md)
+  * [Time](time.md)
   
-* Gear
+* Inventory & Player
 
   * [Kits & Inventory](kits.md)
   * [Killstreaks](killstreaks.md)
   * [Damage Control](damagecontrol.md)
+  * [Respawn](respawn.md)
+  * [Crafting](crafting.md)
   
 * Objectives
 
