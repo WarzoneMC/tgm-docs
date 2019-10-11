@@ -10,15 +10,16 @@ This module is used to specify the bounds in which a filter is used.
 		{ "id": "cyl-region", "type": "cylinder", "base": "-79, 7, -2", "radius": 3, "height": 6 },
 		{ "id": "sph-region", "type": "sphere", "center": "-35, 83, 22", "radius": 5 },
 		{ "id": "hsp-region", "type": "hemisphere", "center": "-26, 48, 24", "radius": 8, "direction": "-x"},
+		{ "id": "mta-region", "type": "meta", "regions": ["blue-spawn-protection", "red-spawn-protection"]}
 	],
 ```
 
 ### Spawn Attributes
 
-| Attribute | Description                                                                 | Value    |
-|-----------|-----------------------------------------------------------------------------|----------|
-| `id`      | The unique ID that you are naming the region. Used later for filters.       | ID       |
-| `type`    | The type of geometry that the region uses (`cuboid`, `cylinder`, `sphere`, `hemisphere`)  | String   |
+| Attribute | Description                                                                                       | Value    |
+|-----------|---------------------------------------------------------------------------------------------------|----------|
+| `id`      | The unique ID that you are naming the region. Used later for filters.                             | ID       |
+| `type`    | The type of geometry that the region uses (`cuboid`, `cylinder`, `sphere`, `hemisphere`, `meta`)  | String   |
 
 ---
 
@@ -51,5 +52,11 @@ This module is used to specify the bounds in which a filter is used.
 | `center`  | The center block of the hemisphere, as an `XYZ` value.                | Coords   |
 | `radius`  | How many blocks outward the hemisphere region extends.                | Number   |
 | `direction`| Which direction the hemisphere is facing (`+/- x,y,z`)               | Direction|
+
+#### Meta Attributes
+
+| Attribute | Description                                                           | Value    |
+|-----------|-----------------------------------------------------------------------|----------|
+| `regions` | References several regions/coordinates.                               | Coords / Region ID   |
 
 <span class="label label-note">Note</span> More region types will be supported in the future.
