@@ -9,7 +9,7 @@ This module is used to modify player respawning.
 		"rules": {
 			"freeze": true,
 			"blindness": true,
-			"confirm": false
+			"confirm": false,
 		}
 	},
 ```
@@ -29,3 +29,4 @@ This module is used to modify player respawning.
 | `freeze`   | Whether or not the player may move when in the death screen. | Boolean     |      |
 | `blindness`  | Whether or not the player can see when in the death screen.  | Boolean     |           |
 | `confirm`  | Whether or not the player must interact with the death screen to respawn.  | Boolean     |           |
+| `teams`  | Defines which teams will be affected by rules attributes.  | Team ID     |           |
