@@ -23,14 +23,14 @@ This module is used to specify the bounds in which a filter is used.
 
 ---
 
-#### Cuboid Attributes
+#### ** Cuboid Attributes **
 
 | Attribute | Description                                                           | Value    |
 |-----------|-----------------------------------------------------------------------|----------|
 | `min`     | The first corner of the cuboid, as an `XYZ` value.                    | Coords   |
 | `max`     | The second corner of the cuboid, as an `XYZ` value.                   | Coords   |
 
-#### Cylinder Attributes
+#### ** Cylinder Attributes **
 
 | Attribute | Description                                                           | Value    |
 |-----------|-----------------------------------------------------------------------|----------|
@@ -38,14 +38,14 @@ This module is used to specify the bounds in which a filter is used.
 | `radius`  | How many blocks outward the cylinder region extends.                  | Number   |
 | `height`  | How many blocks high the cylinder region extends.                     | Number   |
 
-#### Sphere Attributes
+#### ** Sphere Attributes **
 
 | Attribute | Description                                                           | Value    |
 |-----------|-----------------------------------------------------------------------|----------|
 | `center`  | The center block of the sphere, as an `XYZ` value.                    | Coords   |
 | `radius`  | How many blocks outward the sphere region extends.                    | Number   |
 
-#### Hemisphere Attributes
+#### ** Hemisphere Attributes **
 
 | Attribute | Description                                                           | Value    |
 |-----------|-----------------------------------------------------------------------|----------|
@@ -53,7 +53,7 @@ This module is used to specify the bounds in which a filter is used.
 | `radius`  | How many blocks outward the hemisphere region extends.                | Number   |
 | `direction`| Which direction the hemisphere is facing (`+/- x,y,z`)               | Direction|
 
-#### Meta Attributes
+#### ** Meta Attributes **
 
 | Attribute | Description                                                           | Value    |
 |-----------|-----------------------------------------------------------------------|----------|
