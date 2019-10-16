@@ -61,6 +61,21 @@ Defines which kit each team receives.
 | `slot`        | The slot the item will spawn in.                              | Slot    |
 | `amount`      | The amount of an item the player receives. Default is 1.      | Number  |
 | `unbreakable` | Whether the item is breakable or not.                         | Boolean |
+| `display_name`| The name of the item.                                         | String  |
+| `lore`        | The subtext (lore) of the item.                               | String  |
+| `flags`       | The type of flags that are applied to the item.               | Parent  |
+
+#### Flags Attributes
+
+| Attribute        | Description                                                   | Value   |
+|------------------|---------------------------------------------------------------|---------|
+| `hide_attributes`| Hides attributes like damage.                                 | Boolean |
+| `hide_destroys`  | Hides what an item stack can destroy.                         | Boolean |
+| `hide_enchants`  | Hides what enchantments the item has.                         | Boolean |
+| `hide_placed_on` |  Hides what a block can be placed against.                    | Boolean |
+| `hide_potion_effects`|  Hides the potion effects on an item stack.               | Boolean |
+| `hide_unbreakable` |  Hides the unbreakable state.                               | Boolean |
+
 
 ### Effects Attributes
 
