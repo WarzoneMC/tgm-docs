@@ -40,26 +40,34 @@ This module is used to generate items in a map, with various tiers.
 
 ### Generators Attributes
 
-| Attribute     | Description                                              | Value      |
-|---------------|----------------------------------------------------------|------------|
-| `id`        | The name of the generator.       | String    |
-| `item`        | 	Nests the material and other item attributes.       | Item    |
-| `location` | The coordinates in which the item will spawn.   | Coordinate    |
-| `limit`        | The amount of items active in a stack at a given time.      | Number    |
-| `range`        | 		The distance a player must be within range (in blocks) for spawning.       | Number    |
-| `interval` | The frequency of the item spawn.   | Number   |
-| `hologram`        | 	The hologram that may display information about the generator.       | Parent    |
-| `upgrades`        | 	The parent attribute that stores generator "tier" upgrading.       | Parent    |
+| Attribute  | Description                                              | Value      |
+|------------|----------------------------------------------------------|------------|
+| `id`       | The name of the generator.                               | String     |
+| `item`     | Nests the material and other item attributes.            | Item       |
+| `location` | The coordinates in which the item will spawn.            | Coordinate |
+| `limit`    | The amount of items active in a stack at a given time.   | Number     |
+| `range`    | Number of blocks a player must be in range for spawning. | Number     |
+| `interval` | The frequency of the item spawn.                         | Number     |
+| `hologram` | Hologram that displays information about the generator.  | Parent     |
+| `upgrades` | Parent attribute that stores generator "tier" upgrading. | Parent     |
 
 ### Hologram Attributes
 
-| Attribute     | Description                                              | Value      |
-|---------------|----------------------------------------------------------|------------|
-| `timeUnit`        | 	The unit of time measurement used.       | Boolean    |
-| `content` | 	The display of the hologram (in text - colors may be used with `&`.)   | Boolean    |
+| Attribute    | Description                                              | Value      |
+|--------------|----------------------------------------------------------|------------|
+| `timeUnit`   | The unit of time measurement used.                       | Boolean    |
+| `content`    | Display of hologram (colors codes with `&` supported)    | Boolean    |
 
 ### Upgrades Attributes
 
 | Attribute     | Description                                              | Value      |
 |---------------|----------------------------------------------------------|------------|
-| `no`        | 	someone else do this section       | idiot    |
+| `type`        | Whether the generator should auto upgrade or manually    | String     |
+| `sequence`    | Parent attribute that stores how often to upgrade        | Parent     |
+
+
+### Sequence Attributes
+
+| Attribute     | Description                                              | Value      |
+|---------------|----------------------------------------------------------|------------|
+| `someone`     | finish this                                              | Vice       |
