@@ -1,6 +1,6 @@
 # Documentation
 
-Documentation for the [TGM](https://github.com/WarzoneMC/Warzone) (Team Game Manager) used to host multiple Minecraft gamemodes. You can view the docs located at https://docs.warz.one. Pages are hosted using Github Pages.
+Documentation for the [TGM](https://github.com/Warzone/TGM) (Team Game Manager) used to host multiple Minecraft gamemodes. You can view the docs located at https://docs.warz.one. Pages are hosted using Github Pages.
 
 ## Contributing
 

@@ -1,7 +1,7 @@
 ## Warzone
 > ### Welcome to the TGM Maps Documentation Site!
 
-This website is for documenting implementations of [WarzoneMC's Fork](https://github.com/WarzoneMC/Warzone) that is used live on [warzone.network](https://warzone.network).
+This website is for documenting implementations of [WarzoneMC's Fork](https://github.com/Warzone/TGM) that is used live on [warzone.network](https://warzone.network).
 
 ### What is TGM?
 
@@ -27,6 +27,6 @@ JSON files must be fully functional in order to be loaded onto a TGM server with
 
 ---
 
-Feel free to contribute to the development of this website by [making pull requests on GitHub!](https://github.com/WarzoneMC/Docs/) This website is community maintained.
+Feel free to contribute to the development of this website by [making pull requests on GitHub!](https://github.com/Warzone/Docs/) This website is community maintained.
 
 
