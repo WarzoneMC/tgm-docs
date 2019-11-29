@@ -12,7 +12,7 @@ Prevent explosions from destroying the `blue-spawn` region.
 			"type": "block-explode", "evaluate": "deny", "teams": ["blue", "red"],
 			"regions": ["blue-spawn"], "message": "&cYou are not allowed to modify terrain here."
 		}
-        ],
+	],
 	"regions": [
 		{"id": "blue-spawn", "type": "cuboid", "min": "121, 16, -33", "max": "123, 12, -35"}
 	]
@@ -26,7 +26,7 @@ Prevent players from building out the `map` region.
 			"type": "build", "evaluate": "deny", "inverted": true, "teams": ["blue", "red"],
 			"regions": ["map"], "message": "&cYou cannot build outside of the map."
 		}
-        ],
+	],
 	"regions": [
 		{"id": "map", "type": "cuboid", "min": "-46, 0, -184", "max": "46, oo, 328"}
 	]
