@@ -18,15 +18,30 @@ Prevent explosions from destroying the `blue-spawn` region.
 	]
 ```
 
+Prevent players from building out the `map` region.
+
+```json
+	"filters": [
+		{
+			"type": "build", "evaluate": "deny", "inverted": true, "teams": ["blue", "red"],
+			"regions": ["map"], "message": "&cYou cannot build outside of the map."
+		}
+        ],
+	"regions": [
+		{"id": "map", "type": "cuboid", "min": "-46, 0, -184", "max": "46, oo, 328"}
+	]
+```
+
 ### Filter Attributes
 
-| Attribute | Description                                                           | Value  |
-|-----------|-----------------------------------------------------------------------|--------|
-| `type`    | The **type** of filter used to apply a condition.                     | String |
-| `evaluate`| How the condition applies to the team (`DENY`, `ALLOW`, `ABSTAIN`)    | String |
-| `teams`   | The teams that the filter applies to.                                 | Team   |
-| `message` | The message that should be sent to players when the filter activates. | String |
-| `regions` | The regions that the filter is meant to modify.                       | Region |
+| Attribute | Description                                                           | Value   |
+|-----------|-----------------------------------------------------------------------|---------|
+| `type`    | The **type** of filter used to apply a condition.                     | String  |
+| `evaluate`| How the condition applies to the team (`DENY`, `ALLOW`, `ABSTAIN`)    | String  |
+| `inverted`| If the filter is inverted (applies everywhere the region doesn't)     | Boolean |
+| `teams`   | The teams that the filter applies to.                                 | Team    |
+| `message` | The message that should be sent to players when the filter activates. | String  |
+| `regions` | The regions that the filter is meant to modify.                       | Region  |
 
 The types of filters allowed to be used are filters that are coded into TGM: Therefore, you cannot modify events that are not already supported. The types of filters are listed below, used in conjunction with `type`.
 
