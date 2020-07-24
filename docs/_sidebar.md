@@ -1,5 +1,6 @@
 * General
   * [Main Map Elements](elements.md)
+  * [Commands & Permissions](commandsandpermissions.md)
 
 * Core
   * [Teams](teams.md)
