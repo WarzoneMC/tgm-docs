@@ -2,6 +2,7 @@
   <!--- * [Main Map Elements](elements.md) --->
   * [Commands & Permissions](commandsandpermissions.md)
   * [Match Commands](matchcommandsandpermissions.md)
+  * [Punish Commands](punishcommandsandpermissions.md)
 
 * Core
   * [Teams](teams.md)

@@ -61,6 +61,12 @@ View all nicknamed players.
 **Usage:** `profilecache clear`
 <hr>
 
+### whois
+Views nickname and identity of a targeted player.
+**Permission Node:** `tgm.command.whois`<br>
+**Usage:** `whois [player]`
+<hr>
+
 ### nick
 View all nicknamed players.
 **Permission Node:** `tgm.command.nick`<br>
