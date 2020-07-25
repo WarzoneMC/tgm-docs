@@ -1,6 +1,7 @@
-<!--- * General --->
+* General
   <!--- * [Main Map Elements](elements.md) --->
-  <!--- * [Commands & Permissions](commandsandpermissions.md) --->
+  * [Commands & Permissions](commandsandpermissions.md)
+  * [Match Commands](matchcommandsandpermissions.md)
 
 * Core
   * [Teams](teams.md)
@@ -16,7 +17,7 @@
   * [Item Removal](itemremove.md)
   <!--- * [Gamerules](gamerules.md) --->
   <!--- * [Time](time.md) --->
-  
+
 * Inventory & Player
 
   * [Kits & Inventory](kits.md)
@@ -24,7 +25,7 @@
   * [Damage Control](damagecontrol.md)
   <!--- * [Respawn](respawn.md) --->
   <!--- * [Crafting](crafting.md) --->
-  
+
 <!--- * Objectives) --->
 
   <!--- * [Monuments](monuments.md) --->
