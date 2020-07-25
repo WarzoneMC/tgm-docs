@@ -3,6 +3,7 @@
   * [Commands & Permissions](commandsandpermissions.md)
   * [Match Commands](matchcommandsandpermissions.md)
   * [Punish Commands](punishcommandsandpermissions.md)
+  * [Rank Commands](rankcommandsandpermissions.md)
 
 * Core
   * [Teams](teams.md)

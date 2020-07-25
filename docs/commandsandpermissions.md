@@ -97,3 +97,20 @@ Set stats for user.<br>
 
 >#### rank [rank]
 Set a rank on nicked player.
+
+### tag
+View all nicknamed players.
+**Alias:** tags<br>
+**Usage:** `tag`
+
+>#### set [tag] [player]
+**Permission Node:** `tgm.tags.set`<br>
+
+>#### add [tag] [player|UUID]
+**Permission Node:** `tgm.tags.add`<br>
+
+>#### remove [tag] [player|UUID]
+**Permission Node:** `tgm.tags.remove`<br>
+
+>#### list [tag] [player|UUID]
+**Permission Node:** `tgm.tags.list`<br>
