@@ -1,11 +1,9 @@
 # Commands and Permissions
 
 ### broadcast
-**Alias:** `tgm.broadcast`<br>
-**Permission Node:** bc<br>
+**Alias:** bc<br>
+**Permission Node:** `tgm.broadcast`<br>
 **Usage:** `broadcast [list|preset|raw|playerpreset|playerraw|config|start|stop|reload]`
-<hr>
-
 >#### list
 Lists all of the preset broadcast messages.
 
@@ -37,3 +35,59 @@ Stops the auto broadcast task.
 
 >#### reload
 Reloads the auto broadcast task.
+
+<hr>
+
+### ping
+Checks a players ping.
+**Usage:** `ping [player]`
+<hr>
+
+### tgm
+Displays essential server information.
+**Permission Node:** `tgm.command.tgm`<br>
+**Usage:** `ping [player]`
+<hr>
+
+### profilecache
+Clear the profile cache.
+**Permission Node:** `tgm.command.profilecache`<br>
+**Usage:** `profilecache clear`
+<hr>
+
+### nicks
+View all nicknamed players.
+**Permission Node:** `tgm.command.whois`<br>
+**Usage:** `profilecache clear`
+<hr>
+
+### nick
+View all nicknamed players.
+**Permission Node:** `tgm.command.nick`<br>
+**Usage:** `nick [set|reset|skin|stats|rank] [rank]`
+
+<span class="label label-note">Note</span><br>
+You cannot set your name as someone else who is currently online.<br>
+Your nickname must be shorter than 16 characters.<br>
+Need to reconnect for the changes to fully apply.
+
+>#### set [name]
+**Alias:** name<br>
+Set your nickname.
+
+>#### reset
+Revert your nickname back to original username.
+
+>#### skin [name]
+Set your skin to the specified username.
+
+>#### stats [statName|good|random|bad|new] [option]
+Set stats for user.<br>
+**statName**: Change an particular statistic.<br>
+**good**: Set statistics to a Good bar.<br>
+**bad**: Set statistics to a bad bar.<br>
+**random**: Set statistics randomly.<br>
+**new**: Set statistics to a clean slate.<br>
+
+>#### rank [rank]
+Set a rank on nicked player.
