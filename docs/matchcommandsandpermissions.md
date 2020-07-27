@@ -10,26 +10,6 @@ Find the maps that are on Warzone, although not necessarily in the rotation.<br>
 **Usage:** `maps [map name] [page]`
 <hr>
 
-### rotation
-View all of the maps in the current rotation.<br>
-**Alias:** rot<br>
-**Usage:** `rotation [page]`
-<hr>
-
-### rotations
-View all of the rotations currently in the repository.<br>
-**Alias:** rots<br>
-**Usage:** `rotations`
-<hr>
-
-### setrotation
-Sets the current rotation.<br>
-**Permission Node:** `tgm.command.setrot`<br>
-**Alias:** setrot<br>
-**Usage:** `setrotation [rotation]`
-<span class="label label-note">Note</span> Use /rotations to view the avaliable options.
-<hr>
-
 ### cycle
 Cycle to a new map.<br>
 **Permission Node:** `tgm.cycle`<br>

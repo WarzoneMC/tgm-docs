@@ -4,6 +4,7 @@
   * [Match Commands](matchcommandsandpermissions.md)
   * [Punish Commands](punishcommandsandpermissions.md)
   * [Rank Commands](rankcommandsandpermissions.md)
+  * [Rotations](rotations.md)
 
 * Core
   * [Teams](teams.md)
