@@ -1,4 +1,4 @@
-# Commands and Permissions
+# General Commands
 
 ### broadcast
 **Alias:** bc<br>

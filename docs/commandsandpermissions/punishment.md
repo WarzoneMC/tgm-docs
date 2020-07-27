@@ -1,4 +1,4 @@
-# Punish Commands
+# Punishment Commands
 
 ### punish
 Opens a punishment interface.<br>
