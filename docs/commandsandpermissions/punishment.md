@@ -12,8 +12,8 @@ Reloads all punishment presets.
 ### chat
 Controls the Server chat channel.<br>
 **Permission Node:** `tgm.chat.control`<br>
+**Alias:** c<br>
 **Usage:** `chat [mute|clear]`<br>
-<span class="label label-note">Note</span> /chat conflicts with MultiChat, need a /c Alias.
 <hr>
 
 ### report
