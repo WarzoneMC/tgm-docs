@@ -1,12 +1,12 @@
 # Match Commands
 
 ### maps
-View the maps that are on Warzone, although not necessarily in the rotation.<br>
+View the maps that are on the Server, although not necessarily in the rotation.<br>
 **Usage:** `maps [type] [page]`
 <hr>
 
 ### findmaps
-Find the maps that are on Warzone, although not necessarily in the rotation.<br>
+Find the maps that are on the Server, although not necessarily in the rotation.<br>
 **Usage:** `maps [map name] [page]`
 <hr>
 
@@ -66,11 +66,10 @@ See yours or another players current killstreak.<br>
 
 ### teleport
 Teleport to a player.<br>
-**Permission Node:** `tgm.teleport`<br>
-> Allows staff members to teleport outside of Spectator.
-
 **Alias:** tp<br>
-**Usage:** `teleport [player]`
+**Usage:** `teleport [player]`<br>
+**Permission Node:** `tgm.teleport`
+> Allows staff members to teleport outside of Spectator.
 <hr>
 
 ### team
@@ -110,6 +109,7 @@ Change or select a chat channel.<br>
 ### t
 Send a message to your team.<br>
 **Usage:** `t [message]`
+<hr>
 
 ### next
 View the next map in the rotation.<br>
@@ -142,7 +142,7 @@ Reload all configuration.
 
 ### leaderboard
 List the top 10 players on the Server.<br>
-**Alias:** lbm lboard<br>
+**Alias:** lb, lboard<br>
 **Usage:** `leaderboard [type]`
 
 >#### leaderboard type [kills|wins|losses|xp]

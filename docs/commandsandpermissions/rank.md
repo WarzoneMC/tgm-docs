@@ -21,7 +21,7 @@ List all registered ranks.
 Display all information about the selected rank.
 
 >#### rank create [name] [prefix] staff[true|false] [priority] default[true|false]
-  **staff**: Determines whether the rank is a Staff rank or not
+  **staff**: Determines whether the rank is a Staff rank or not.<br>
   **default**: Determines whether the rank is the main default rank or not.
 
 >#### rank delete [rank]
@@ -49,7 +49,7 @@ List all registered ranks.
 Display all information about the selected rank.
 
 >#### rank create [name] [prefix] staff[true|false] [priority] default[true|false]
-  **staff**: Determines whether the rank is a Staff rank or not
+  **staff**: Determines whether the rank is a Staff rank or not.<br>
   **default**: Determines whether the rank is the main default rank or not.
 
 >#### rank delete [rank]

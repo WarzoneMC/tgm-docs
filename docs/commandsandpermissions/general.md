@@ -39,36 +39,36 @@ Reloads the auto broadcast task.
 <hr>
 
 ### ping
-Checks a players ping.
+Checks a players ping.<br>
 **Usage:** `ping [player]`
 <hr>
 
 ### tgm
-Displays essential server information.
+Displays essential server information.<br>
 **Permission Node:** `tgm.command.tgm`<br>
 **Usage:** `ping [player]`
 <hr>
 
 ### profilecache
-Clear the profile cache.
+Clear the profile cache.<br>
 **Permission Node:** `tgm.command.profilecache`<br>
 **Usage:** `profilecache clear`
 <hr>
 
 ### nicks
-View all nicknamed players.
+View all nicknamed players.<br>
 **Permission Node:** `tgm.command.whois`<br>
 **Usage:** `profilecache clear`
 <hr>
 
 ### whois
-Views nickname and identity of a targeted player.
+Views nickname and identity of a targeted player.<br>
 **Permission Node:** `tgm.command.whois`<br>
 **Usage:** `whois [player]`
 <hr>
 
 ### nick
-View all nicknamed players.
+View all nicknamed players.<br>
 **Permission Node:** `tgm.command.nick`<br>
 **Usage:** `nick [set|reset|skin|stats|rank] [rank]`
 
@@ -99,7 +99,7 @@ Set stats for user.<br>
 Set a rank on nicked player.
 
 ### tag
-View all nicknamed players.
+View all nicknamed players.<br>
 **Alias:** tags<br>
 **Usage:** `tag`
 
