@@ -96,7 +96,7 @@ Refreshes the map library and rotation from the repository.<br>
 
 ### channel
 Change or select a chat channel.<br>
-**Permission Node:** `tgm.teleport`<br>
+**Permission Node:** `tgm.channel`<br>
 **Alias:** chatchannel, cc<br>
 **Usage:** `channel [all|team|staff]`
 <hr>
