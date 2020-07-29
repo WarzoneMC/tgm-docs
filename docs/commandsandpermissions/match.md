@@ -104,11 +104,6 @@ Change or select a chat channel.<br>
 
 <hr>
 
-### channel
-Change or select a chat channel.<br>
-**Usage:** `/channel [all|team|staff]`
-<hr>
-
 ### t
 Send a message to your team.<br>
 **Usage:** `/t [message]`
