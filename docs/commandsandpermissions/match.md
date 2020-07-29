@@ -2,80 +2,81 @@
 
 ### maps
 View the maps that are on the Server, although not necessarily in the rotation.<br>
-**Usage:** `maps [type] [page]`
+**Usage:** `/maps [type] [page]`
 <hr>
 
 ### findmaps
 Find the maps that are on the Server, although not necessarily in the rotation.<br>
-**Usage:** `maps [map name] [page]`
+**Usage:** `/maps [map name] [page]`
 <hr>
 
 ### cycle
 Cycle to a new map.<br>
 **Permission Node:** `tgm.cycle`<br>
-**Usage:** `cycle`
+**Usage:** `/cycle`
 <hr>
 
 ### start
 Start the match.<br>
 **Permission Node:** `tgm.start`<br>
-**Usage:** `start`
+**Usage:** `/start`
 <hr>
 
 ### end
 End the match.<br>
 **Alias:** finish<br>
 **Permission Node:** `tgm.end`<br>
-**Usage:** `end`
+**Usage:** `/end`
 <hr>
 
 ### cancel
 Cancel all active countdowns.<br>
 **Permission Node:** `tgm.cancel`<br>
-**Usage:** `cancel`
+**Usage:** `/cancel`
 <hr>
 
 ### setnext
 Set the next map.<br>
 **Alias:** sn<br>
 **Permission Node:** `tgm.setnext`<br>
-**Usage:** `setnext [map name]`
+**Usage:** `/setnext [map name]`
 <hr>
 
 ### classes
 Opens a menu to view all classes available<br>
-**Usage:** `classes`
+**Usage:** `/classes`
 <hr>
 
 ### class
 Choose a class.<br>
-**Usage:** `class [kit name]`
+**Usage:** `/class [kit name]`
 <hr>
 
 ### join
 Join a team.<br>
 **Alias:** play<br>
-**Usage:** `join`
+**Usage:** `/join`
 <hr>
 
 ### killstreak
 See yours or another players current killstreak.<br>
 **Alias:** ks<br>
-**Usage:** `killstreak [player]`
+**Usage:** `/killstreak [player]`
 <hr>
 
 ### teleport
 Teleport to a player.<br>
 **Alias:** tp<br>
-**Usage:** `teleport [player]`<br>
+**Usage:** `/teleport [player]`<br>
 **Permission Node:** `tgm.teleport`
 > Allows staff members to teleport outside of Spectator.
+
 <hr>
 
 ### team
 Manage teams.<br>
 **Permission Node:** `tgm.team`<br>
-**Usage:** `team [alias|force|size]`
+**Usage:** `/team [alias|force|size]`
 
 >#### alias [team] [name]
 Select a team and give the team a new name.
@@ -91,38 +92,41 @@ Select a team and set a minimum and maximum amount for team sizes.
 ### loadmaps
 Refreshes the map library and rotation from the repository.<br>
 **Permission Node:** `tgm.loadmaps`<br>
-**Usage:** `loadmaps`
+**Usage:** `/loadmaps`
 <hr>
 
 ### channel
 Change or select a chat channel.<br>
-**Permission Node:** `tgm.channel`<br>
 **Alias:** chatchannel, cc<br>
-**Usage:** `channel [all|team|staff]`
+**Usage:** `/channel [all|team|staff]`<br>
+**Permission Node:** `tgm.channel`
+> Allows staff members to access staff chat channel.
+
 <hr>
 
 ### channel
 Change or select a chat channel.<br>
-**Usage:** `channel [all|team|staff]`
+**Usage:** `/channel [all|team|staff]`
 <hr>
 
 ### t
 Send a message to your team.<br>
-**Usage:** `t [message]`
+**Usage:** `/t [message]`
 <hr>
 
 ### next
 View the next map in the rotation.<br>
-**Usage:** `next`
+**Usage:** `/next`
 <hr>
 
 ### map
 View the map info for the current map.<br>
-**Usage:** `map`
+**Usage:** `/map`
 <hr>
 
 ### time
 See the time elapsed currently for the match.<br>
+**Usage:** `/time`
 >#### time [limit] [seconds]
 Limit the amount of time the current match has remaining.
 
@@ -131,7 +135,7 @@ Limit the amount of time the current match has remaining.
 ### config
 Edit the configuration.<br>
 **Permission Node:** `tgm.config`<br>
-**Usage:** `config [stats|reload]`
+**Usage:** `/config [stats|reload]`
 >#### config stats [on|off]
 Toggle stat tracking.
 
@@ -143,7 +147,7 @@ Reload all configuration.
 ### leaderboard
 List the top 10 players on the Server.<br>
 **Alias:** lb, lboard<br>
-**Usage:** `leaderboard [type]`
+**Usage:** `/leaderboard [type]`
 
 >#### leaderboard type [kills|wins|losses|xp]
 
@@ -152,7 +156,7 @@ List the top 10 players on the Server.<br>
 ### stats
 Display your stats.<br>
 **Alias:** stat<br>
-**Usage:** `stats [player]`
+**Usage:** `/stats [player]`
 
 <hr>
 
@@ -160,7 +164,7 @@ Display your stats.<br>
 Manage custom countdowns.<br>
 **Permission Node:** `tgm.countdown`<br>
 **Alias:** cd<br>
-**Usage:** `countdown [list|start|create|edit|cancel]`
+**Usage:** `/countdown [list|start|create|edit|cancel]`
 >#### countdown list
 Lists all registered countdowns.
 

@@ -4,13 +4,13 @@
 Staff Chat.<br>
 **Alias:** sc, staffc<br>
 **Permission Node:** `tgm.staffchat`<br>
-**Usage:** `staffchat [message]`
+**Usage:** `/staffchat [message]`
 <hr>
 
 ### rank
 Rank Management Command.<br>
 **Permission Node:** `tgm.command.rank`<br>
-**Usage:** `rank [player|list|info|create|delete|edit|permissions]`<br>
+**Usage:** `/rank [player|list|info|create|delete|edit|permissions]`<br>
 >#### rank player [username|UUID] [add|remove] [rank]
 Assign rank to targeted player.
 
@@ -38,7 +38,7 @@ Add or remove permissions from the selected rank.
 ### rank
 Rank Management Command.<br>
 **Permission Node:** `tgm.command.rank`<br>
-**Usage:** `rank [player|list|info|create|delete|edit|permissions]`<br>
+**Usage:** `/rank [player|list|info|create|delete|edit|permissions]`<br>
 >#### rank player [username|UUID] [add|remove] [rank]
 Assign rank to targeted player.
 

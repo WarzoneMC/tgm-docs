@@ -3,7 +3,7 @@
 ### broadcast
 **Alias:** bc<br>
 **Permission Node:** `tgm.broadcast`<br>
-**Usage:** `broadcast [list|preset|raw|playerpreset|playerraw|config|start|stop|reload]`
+**Usage:** `/broadcast [list|preset|raw|playerpreset|playerraw|config|start|stop|reload]`
 >#### list
 Lists all of the preset broadcast messages.
 
@@ -40,13 +40,13 @@ Reloads the auto broadcast task.
 
 ### ping
 Checks a players ping.<br>
-**Usage:** `ping [player]`
+**Usage:** `/ping [player]`
 <hr>
 
 ### tgm
 Displays essential server information.<br>
 **Permission Node:** `tgm.command.tgm`<br>
-**Usage:** `ping [player]`
+**Usage:** `/tgm`
 <hr>
 
 ### profilecache
@@ -58,19 +58,19 @@ Clear the profile cache.<br>
 ### nicks
 View all nicknamed players.<br>
 **Permission Node:** `tgm.command.whois`<br>
-**Usage:** `profilecache clear`
+**Usage:** `/profilecache clear`
 <hr>
 
 ### whois
 Views nickname and identity of a targeted player.<br>
 **Permission Node:** `tgm.command.whois`<br>
-**Usage:** `whois [player]`
+**Usage:** `/whois [player]`
 <hr>
 
 ### nick
 View all nicknamed players.<br>
 **Permission Node:** `tgm.command.nick`<br>
-**Usage:** `nick [set|reset|skin|stats|rank] [rank]`
+**Usage:** `/nick [set|reset|skin|stats|rank] [rank]`
 
 <span class="label label-note">Note</span><br>
 You cannot set your name as someone else who is currently online.<br>
@@ -101,7 +101,7 @@ Set a rank on nicked player.
 ### tag
 View all nicknamed players.<br>
 **Alias:** tags<br>
-**Usage:** `tag`
+**Usage:** `/tag`
 
 >#### set [tag] [player]
 **Permission Node:** `tgm.tags.set`<br>
