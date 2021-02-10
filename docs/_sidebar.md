@@ -1,34 +1,38 @@
-* General
-  * [Main Map Elements](elements.md)
+<!--- * General --->
+  <!--- * [Main Map Elements](general/elements.md) --->
+
+* Commands & Permissions
+  * [General](commandsandpermissions/general.md)
+  * [Match](commandsandpermissions/match.md)
+  * [Punishment](commandsandpermissions/punishment.md)
+  * [Rank](commandsandpermissions/rank.md)
 
 * Core
-  * [Teams](teams.md)
-  * [Spawns](spawns.md)
+  * [Rotations](core/rotations.md)
+  * [Teams](core/teams.md)
+  * [Spawns](core/spawns.md)
 
 * Mechanics
+  * [Regions](mechanics/regions.md)
+  * [Filters](mechanics/filters.md)
+  * [Launchpads](mechanics/launchpads.md)
+  * [Portals](mechanics/portals.md)
+  * [World Border](mechanics/worldborder.md)
+  * [Item Removal](mechanics/itemremoval.md)
+  <!--- * [Gamerules](mechanics/gamerules.md) --->
+  <!--- * [Time](mechanics/time.md) --->
 
-  * [Regions](regions.md)
-  * [Filters](filters.md)
-  * [Launchpads](launchpads.md)
-  * [Portals](portals.md)
-  * [World Border](worldborder.md)
-  * [Item Removal](itemremove.md)
-  * [Gamerules](gamerules.md)
-  * [Time](time.md)
-  
 * Inventory & Player
+  * [Kits & Inventory](inventoryandplayer/kits.md)
+  * [Killstreaks](inventoryandplayer/killstreaks.md)
+  * [Damage Control](inventoryandplayer/damagecontrol.md)
+  <!--- * [Respawn](inventoryandplayer/respawn.md) --->
+  <!--- * [Crafting](inventoryandplayer/crafting.md) --->
 
-  * [Kits & Inventory](kits.md)
-  * [Killstreaks](killstreaks.md)
-  * [Damage Control](damagecontrol.md)
-  * [Respawn](respawn.md)
-  * [Crafting](crafting.md)
-  
-* Objectives
-
-  * [Monuments](monuments.md)
-  * [Wools](wools.md)
-  * [Deathmatch](deathmatch.md)
-  * [Hills](hills.md)
-  * [Infection](infection.md)
-  * [Blitz](blitz.md)
+<!--- * Objectives) --->
+  <!--- * [Monuments](objectives/monuments.md) --->
+  <!--- * [Wools](objectives/wools.md) --->
+  <!--- * [Deathmatch](objectives/deathmatch.md) --->
+  <!--- * [Hills](objectives/hills.md) --->
+  <!--- * [Infection](objectives/infection.md) --->
+  <!--- * [Blitz](objectives/blitz.md) --->

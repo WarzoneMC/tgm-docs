@@ -1,11 +1,11 @@
 ## Warzone
 > ### Welcome to the TGM Maps Documentation Site!
 
-This website is for documenting implementations of [Warzone's Fork](https://github.com/Warzone/TGM) that is used live on [warzone.network](https://warzone.network).
+This website is for documenting Warzone's [TGM](https://github.com/Warzone/TGM) plugin that is used live on [warzone.network](https://warzone.network).
 
 ### What is TGM?
 
-TGM is a team-oriented Minecraft PvP suite inspired by [PGM](https://github.com/OvercastNetwork/ProjectAres). TGM's goal is to shift most of the game logic to Java, which allows for rapid development and modernization of gamemodes over time. TGM parses something called JSON (JavaScript Object Notation) in order to load and manage maps on the server, which are handled by the server's [rotations](https://github.com/Warzone/Maps/blob/master/rotation.txt). The development of TGM is primarily driven by the community.
+TGM is a team-oriented Minecraft PvP suite inspired by [PGM](https://github.com/PGMDev/PGM). TGM's goal is to shift most of the game logic to Java, which allows for rapid development and modernization of gamemodes over time. TGM parses something called JSON (JavaScript Object Notation) in order to load and manage maps on the server, which are handled by the server's [rotations](https://github.com/Warzone/Maps/blob/master/rotation.json). The development of TGM is primarily driven by the community.
 
 ### What do JSON files do?
 
