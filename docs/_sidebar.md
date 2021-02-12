@@ -26,7 +26,7 @@
   * [Kits & Inventory](inventoryandplayer/kits.md)
   * [Killstreaks](inventoryandplayer/killstreaks.md)
   * [Damage Control](inventoryandplayer/damagecontrol.md)
-  <!--- * [Respawn](inventoryandplayer/respawn.md) --->
+  * [Respawn](inventoryandplayer/respawn.md)
   <!--- * [Crafting](inventoryandplayer/crafting.md) --->
 
 <!--- * Objectives) --->
