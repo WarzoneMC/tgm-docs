@@ -16,6 +16,7 @@
   * [Regions](mechanics/regions.md)
   * [Filters](mechanics/filters.md)
   * [Launchpads](mechanics/launchpads.md)
+  * [Countdowns](mechanics/countdowns.md)
   * [Portals](mechanics/portals.md)
   * [World Border](mechanics/worldborder.md)
   * [Item Removal](mechanics/itemremoval.md)
