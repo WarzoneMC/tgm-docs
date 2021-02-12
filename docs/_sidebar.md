@@ -19,7 +19,7 @@
   * [Portals](mechanics/portals.md)
   * [World Border](mechanics/worldborder.md)
   * [Item Removal](mechanics/itemremoval.md)
-  <!--- * [Gamerules](mechanics/gamerules.md) --->
+  * [Gamerules](mechanics/gamerules.md
   <!--- * [Time](mechanics/time.md) --->
 
 * Inventory & Player
