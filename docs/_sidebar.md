@@ -21,7 +21,7 @@
   * [World Border](mechanics/worldborder.md)
   * [Item Removal](mechanics/itemremoval.md)
   * [Gamerules](mechanics/gamerules.md)
-  <!--- * [Time](mechanics/time.md) --->
+  * [Time](mechanics/time.md)
 
 * Inventory & Player
   * [Kits & Inventory](inventoryandplayer/kits.md)
