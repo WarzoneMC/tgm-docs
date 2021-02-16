@@ -61,7 +61,7 @@ Defines which kit each team receives.
 | `slot`        | The slot the item will spawn in.                              | Slot    |
 | `amount`      | The amount of an item the player receives. Default is 1.      | Number  |
 | `unbreakable` | Whether the item is breakable or not.                         | Boolean |
-| `display_name`| The name of the item.                                         | String  |
+| `displayName` | The name of the item.                                         | String  |
 | `lore`        | The subtext (lore) of the item.                               | String  |
 | `flags`       | The type of flags that are applied to the item.               | Parent  |
 
