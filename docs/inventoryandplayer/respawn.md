@@ -6,11 +6,12 @@ This module is used to modify player respawning.
 
 ```json
 	"respawn": {
-		"rules": {
-			"freeze": true,
-			"blindness": true,
-			"confirm": false,
-		}
+		"rules": [
+			{"freeze": true},
+			{"blindness": true},
+			{"confirm": false},
+			{"delay": 4000}
+		]
 	},
 ```
 
