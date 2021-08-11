@@ -14,9 +14,13 @@ This module is used to specify where players will appear when they first join th
 
 ### Spawn Attributes
 
-| Attribute | Description                                                           | Value    |
-|-----------|-----------------------------------------------------------------------|----------|
-| `teams`   | The name of the teams that spawn at the coords. Must use the Team ID. | Team     |
-| `coords`  | The coordinates at which the team spawns.                             | Location |
+| Attribute | Description                                                                    | Value    |
+|-----------|--------------------------------------------------------------------------------|----------|
+| `teams`           | The name of the teams that spawn at the coords. Must use the Team ID.  | Team     |
+| `coords`          | The coordinates at which the team spawns.                              | Location |
+| `yaw`             | The yaw of which a player faces upon spawning.                         | Value    |
+| `pitch`           | The pitch of which a player faces upon spawning.                       | Value    |
+| `face-coordinates`| A point which spawns all players to face towards its direction.        | Location |
+| `region`          | A region in which players spawn into (can be used to randomize spawns) | Region |
 
 <span class="label label-note">Note</span> `coords` requires the X, Y, Z, and YAW (in that order). Coordinates can be seen by pressing F3.
