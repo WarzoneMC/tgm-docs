@@ -47,13 +47,18 @@ The types of filters allowed to be used are filters that are coded into TGM: The
 
 ### Type Attributes
 
-| Attribute      | Description                                                           | Value  |
-|----------------|-----------------------------------------------------------------------|--------|
-| `build`        | Determines whether or not players can interact with the region.       | String |
-| `enter`        | Determines whether or not players can enter a specified region.       | String |
-| `leave`        | Determines whether or not players can leave/exit a specified region.  | String |
-| `block-explode`| Determines whether or not explosions destroy a specified region.      | String |
-| `use-bow`      | Determines whether or not players should be allowed to fire arrows.   | String |
-| `use-shear`    | Determines whether or not players should be allowed to shear sheep.   | String |
+| Attribute      | Description                                                                 | Value  |
+|----------------|-----------------------------------------------------------------------------|--------|
+| `build`           | Determines whether or not players can interact with the region.          | String |
+| `enter`           | Determines whether or not players can enter a specified region.          | String |
+| `leave`           | Determines whether or not players can leave/exit a specified region.     | String |
+| `renewable-blocks`| Determines how blocks are regenerated after being mined.                 | String |
+| `block-explode`   | Determines whether or not explosions destroy a specified region.         | String |
+| `block-interact`  | Determines whether or not players can interact with a region.            | String |
+| `block-place`     | Determines whether or not players can place blocks.                      | String |
+| `block-break`     | Determines whether or not players can break blocks.                      | String |
+| `void-build`      | Determines how blocks in a specified void region can be interacted with. | String |
+| `use-bow`         | Determines whether or not players should be allowed to fire arrows.      | String |
+| `use-shear`       | Determines whether or not players should be allowed to shear sheep.      | String |
 
 <span class="label label-note">Note</span> More filters are planned to be added in the future.
