@@ -64,6 +64,7 @@ Defines which kit each team receives.
 | `displayName` | The name of the item.                                         | String  |
 | `lore`        | The subtext (lore) of the item.                               | String  |
 | `flags`       | The type of flags that are applied to the item.               | Parent  |
+| `durability`  | The item's durability.				        | Number  |
 
 #### Flags Attributes
 
