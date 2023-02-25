@@ -13,7 +13,18 @@ Disable inventory drops and obsidian.
 		"leather leggings", "leather boots", "obsidian"
 	],
 ```
+Disable item drops specifically on death, manual removal, and spawn (such as breaking blocks).
 
+```json
+	"itemremove": [
+		{
+			"type": "red wool",
+			"death": true,
+			"drop": true,
+			"spawn": true
+		}
+	],
+```
 To disable all inventory drops:
 
 ```json
